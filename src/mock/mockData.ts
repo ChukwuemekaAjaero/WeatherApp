@@ -1,0 +1,42 @@
+export const mockData = [
+  {
+    id: 1,
+    date: Date.now(),
+    minTemp: 11,
+    maxTemp: 16,
+    isCelcius: true,
+    weather: "cloudy",
+  },
+  {
+    id: 2,
+    date: Date.now(),
+    minTemp: 11,
+    maxTemp: 16,
+    isCelcius: true,
+    weather: "cloudy",
+  },
+  {
+    id: 3,
+    date: Date.now(),
+    minTemp: 11,
+    maxTemp: 16,
+    isCelcius: true,
+    weather: "cloudy",
+  },
+  {
+    id: 4,
+    date: Date.now(),
+    minTemp: 11,
+    maxTemp: 16,
+    isCelcius: true,
+    weather: "cloudy",
+  },
+  {
+    id: 5,
+    date: Date.now(),
+    minTemp: 11,
+    maxTemp: 16,
+    isCelcius: true,
+    weather: "cloudy",
+  },
+];
