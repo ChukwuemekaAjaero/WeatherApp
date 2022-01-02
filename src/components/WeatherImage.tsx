@@ -10,10 +10,10 @@ interface Props {}
 interface State {}
 
 const WeatherImage: FunctionComponent = () => {
-  return (
-    <Box component="div" p={2}>
-      <img width="100%" src={ThunderStorm} />
-    </Box>
-  );
+    return (
+        <Box component="div" p={2}>
+            <img width="100%" src={ThunderStorm} />
+        </Box>
+    );
 };
 export default WeatherImage;

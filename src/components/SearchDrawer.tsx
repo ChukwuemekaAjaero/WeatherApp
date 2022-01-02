@@ -2,8 +2,8 @@ import React, { FunctionComponent, Fragment, MouseEvent } from "react";
 import { Button, Drawer, Grid, Input } from "@mui/material";
 
 interface Props {
-  open: boolean;
-  toggleDrawer: (event: MouseEvent) => void;
+    open: boolean;
+    toggleDrawer: (event: MouseEvent) => void;
 }
 
 interface State {}
@@ -12,21 +12,26 @@ interface State {}
 // TODO: Modify the Drawer with to match the width of the TodaySection.
 
 const SearchDrawer: FunctionComponent<Props> = (props: Props) => {
-  return (
-    <Drawer anchor="left" open={props.open} onClose={props.toggleDrawer}>
-      <Grid container direction="column" alignItems="center">
-        <Grid container direction="row" justifyContent="space-between" p={2}>
-          <Grid item>
-            <Input id="2"></Input>
-          </Grid>
-          <Grid item>
-            <Button>Search</Button>
-          </Grid>
-        </Grid>
-        <Grid item></Grid>
-      </Grid>
-    </Drawer>
-  );
+    return (
+        <Drawer anchor="left" open={props.open} onClose={props.toggleDrawer}>
+            <Grid container direction="column" alignItems="center">
+                <Grid
+                    container
+                    direction="row"
+                    justifyContent="space-between"
+                    p={2}
+                >
+                    <Grid item>
+                        <Input id="2"></Input>
+                    </Grid>
+                    <Grid item>
+                        <Button>Search</Button>
+                    </Grid>
+                </Grid>
+                <Grid item></Grid>
+            </Grid>
+        </Drawer>
+    );
 };
 
 export default SearchDrawer;
